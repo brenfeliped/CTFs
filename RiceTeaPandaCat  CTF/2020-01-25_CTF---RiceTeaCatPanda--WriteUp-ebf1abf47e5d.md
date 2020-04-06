@@ -1,10 +1,10 @@
 ---
 title: CTF — RiceTeaCatPanda |WriteUp
-description: Cryptography
+description:
 date: '2020-01-25T15:33:00.702Z'
 categories: []
 keywords: []
-slug: /@brenofeliped15/ctf-riceteacatpanda-writeup-ebf1abf47e5d
+slug: 
 ---
 
 ### Cryptography
