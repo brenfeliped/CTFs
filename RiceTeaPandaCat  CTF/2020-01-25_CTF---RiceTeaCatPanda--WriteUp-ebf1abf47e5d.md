@@ -13,13 +13,11 @@ slug: /@brenofeliped15/ctf-riceteacatpanda-writeup-ebf1abf47e5d
 
 pontos: 150
 
-![enunciado](img\1__z__XEWR78kIzl3E5McWPn6g.jpeg)
-enunciado
+![](img/1__z__XEWR78kIzl3E5McWPn6g.jpeg)
 
 Era da string codificada “E7Rq<G:Kǒ”. A dica era que a flag seguiria o formato rtcp{}, usaria \_ underscores quando necessário e não que flag era _case insensitive_(só maiúsculas ou só minúsculas).
 
-![dica](img\1__EOEXnWaQxtb8u0ZT4L8wtw.jpeg)
-dica
+![dica](img/1__EOEXnWaQxtb8u0ZT4L8wtw.jpeg)
 
 Usando [base64encoder](https://www.base64encode.org/) na string “E7Rq<G:Kǒ” obteve a flag. Fazendo o encode na string seria obtida a string “RTcPUnEXPEcTEDpLAceS” passando para formato conforme a dica ficaria: rtcp{UNEXPECTED\_PLACES} (OBS: a flag só foi aceita com upper case).
 
@@ -31,8 +29,7 @@ Usando [base64encoder](https://www.base64encode.org/) na string “E7Rq<G:Kǒ
 
 pontos: 25
 
-![enunciado](img\1__c9ZZtdf4iqPKqS6YVwNvkg.jpeg)
-enunciado
+![enunciado](img/1__c9ZZtdf4iqPKqS6YVwNvkg.jpeg)
 
 Pelo nome já fui para o [_robots.txt_](https://rockcontent.com/blog/robots-txt/)  do site [https://riceteacatpanda.wtf/robots.txt](https://riceteacatpanda.wtf/robots.txt):
 
@@ -46,9 +43,8 @@ Acessando o endereço do /flag encontraria essa clássica [Rick Astley — N
 
 pontos: 100
 
-![enunciado](img\1__k8vRkxIyBbnWLNHltjo__hg.png)
-enunciado
+![enunciado](img/1__k8vRkxIyBbnWLNHltjo__hg.png)
 
 Acessando a página no _View Hint_ teria a mensagem “ Jess will let you be a real gamer in: ” e tempo dependo do dia do ctf em que estava fazendo o desafio, o tempo acabava dia 24. usei o [EditThisCokkie](http://www.editthiscookie.com/) de extensão do Chrome para editar o para dia em que acaba, isso poderia ser feito de várias formas. O timer contava o tempo que faltava e o tempo que passou se alterasse 2 dias frente não teria a flag.
 
-![](img\1__PBOCIh7zdq99XMB9NikymA.jpeg)
+![](img/1__PBOCIh7zdq99XMB9NikymA.jpeg)
